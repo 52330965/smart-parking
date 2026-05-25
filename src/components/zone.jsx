@@ -48,9 +48,7 @@ const Zone = () => {
                 open 24/7 indoor parking
                 security cameras&Guards CCTV Lighting Easy Access 
               </p>
-              <h5>
-                2$/hour
-              </h5>
+              <h5>2$/hour</h5>
               <p>Available Spots:{spotsA}</p>
               <button className="btn btn-primary w-100" onClick={handleZoneA}>
                 Book Now
