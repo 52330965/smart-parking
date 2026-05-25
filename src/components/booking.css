@@ -1,6 +1,11 @@
 .btn-confirm {
     border-radius: 25px;
+    padding: 10px 20px;
+    margin-right: 10px;
 }
 .btn-reset {
+    padding: 10px 20px;
     border-radius: 25px;
+    margin-left: 10px;
+    
 }
