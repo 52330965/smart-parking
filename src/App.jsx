@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar.jsx";
 import Home from "./components/home.jsx";
 import Zone from "./components/zone.jsx";
-import Booking from "./components/Booking.jsx";
+import Booking from "./components/booking.jsx";
 import Login from "./components/Login.jsx";
 const App=()=> {
   return (
