@@ -1,0 +1,36 @@
+.homebutton{
+    background-color: #687787;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.homebutton:hover {
+    background-color: #252c34;
+}
+.homeimg{
+    left: 50%;
+    width: 90%;
+    height: auto;
+    margin-top: 20px;
+    transition: transform 0.5s;
+}
+.homeimg:hover {
+    transform: scale(1.05);   
+}
+.homeh1{
+    font-size: 36px;
+    color: #252c34;
+    margin-bottom: 20px;
+}
+#get-started{
+   
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+}
