@@ -10,8 +10,8 @@ const booking=()=>{
 
 return(
   <div className="booking">
-    <h1>Booking Page</h1>
-    <label>Select Zone:</label>
+    <h1 id="booking-title">Booking Page</h1>
+    <label className="label">Select Zone:</label>
     <br/>
     <button className="btn btn-primary" onClick={ ()=>setzone("A")}>Zone A</button>
     <br />

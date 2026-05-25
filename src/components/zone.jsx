@@ -4,6 +4,7 @@ import mall from "../assets/image/Mall.jpg";
 import building from "../assets/image/building.jpg";
 import garage from "../assets/image/garage.webp";
 import "./zone.css";
+import { Link } from "react-router-dom";
 const Zone = () => {
 
   const [spotsA, setSpotsA] = useState(25);
@@ -37,7 +38,7 @@ const Zone = () => {
   return (
 
     <div className="container mt-5">
-      <h1 >Parking Zones</h1>
+      <h1 id="zones-title">Parking Zones</h1>
       <div className="row">
         <div className="col-md-4">
           <div className="card ">
@@ -48,10 +49,8 @@ const Zone = () => {
                 security cameras&Guards CCTV Lighting Easy Access 
               </p>
               <h5>2$/hour</h5>
-              <p>Available Spots:{spotsA}</p>
-              <button className="btn btn-primary w-100" onClick={handleZoneA}>
-                Book Now
-              </button>
+              <p>Available Spots:{spotsA}</p>              
+                <button className="btn btn-primary w-100" onClick={handleZoneA}> Book Now</button>
             </div>
           </div>
         </div>
