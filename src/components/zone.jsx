@@ -44,8 +44,7 @@ const Zone = () => {
             <img src={mall} />
             <div className="card-body text-center">
               <h3>Zone A</h3>
-              <p>
-                open 24/7 indoor parking
+              <p> open 24/7 indoor parking
                 security cameras&Guards CCTV Lighting Easy Access 
               </p>
               <h5>2$/hour</h5>
